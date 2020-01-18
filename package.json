@@ -8,7 +8,9 @@
  "keywords": [
   "node-red",
   "google",
-  "vision"
+  "vision",
+  "object",
+  "detection"
  ],
  "node-red": {
   "nodes": {
@@ -17,6 +19,10 @@
  },
  "author": "tclayson",
  "license": "MIT",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/tclayson/node-red-contrib-google-vision-object-detection.git"
+  },
  "dependencies": {
   "@google-cloud/vision": "^1.8.0"
  }
