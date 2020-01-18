@@ -1,0 +1,23 @@
+{
+ "name": "node-red-contrib-google-vision-object-detection",
+ "version": "0.0.1",
+ "description": "Node Red node for detecting objects in images using Google Vision API",
+ "main": "index.js",
+ "scripts": {},
+ "deprecated": false,
+ "keywords": [
+  "node-red",
+  "google",
+  "vision"
+ ],
+ "node-red": {
+  "nodes": {
+   "detect-objects": "detect-objects.js"
+  }
+ },
+ "author": "tclayson",
+ "license": "MIT",
+ "dependencies": {
+  "@google-cloud/vision": "^1.8.0"
+ }
+}
